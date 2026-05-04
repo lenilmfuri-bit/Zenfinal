@@ -1,8 +1,22 @@
 import { useState, useEffect, useRef } from "react";
-const DARK = { bg:"#0a0806",bg2:"#0f0d0a",bg3:"#141210",muted:"#2e2a22",mut2:"#4a4538",text:"
-const LIGHT = { bg:"#f5efe0",bg2:"#ede5d0",bg3:"#e5dcc8",muted:"#c8bca0",mut2:"#a89878",text:
-const STARTERS = [
-{ id:"IGNITE", el:"Fire", col:"#C97A35", colL:"#A05010", glow:"#ff8c20", scent:"Sumatra O
+
+const DARK = { 
+  bg:"#0a0806", bg2:"#0f0d0a", bg3:"#141210", 
+  muted:"#2e2a22", mut2:"#4a4538", 
+  text:"#ede0c4", tex2:"#9a8868", 
+  gold:"#C9A84C", goldL:"#e8c870", amber:"#C97A35", 
+  mode:"dark" 
+};
+
+const LIGHT = { 
+  bg:"#f5efe0", bg2:"#ede5d0", bg3:"#e5dcc8", 
+  muted:"#c8bca0", mut2:"#a89878", 
+  text:"#1c180e", tex2:"#5c4e30", 
+  gold:"#8B6510", goldL:"#A07820", amber:"#9B5210", 
+  mode:"light" 
+};
+
+const STARTERS = [{ id:"IGNITE", el:"Fire", col:"#C97A35", colL:"#A05010", glow:"#ff8c20", scent:"Sumatra O
 { id:"CURRENT",el:"Water", col:"#3A7AAA", colL:"#1A5A8A", glow:"#50aaee", scent:"Sparkling
 { id:"GROUND", el:"Earth", col:"#7A5A2A", colL:"#5A3A0A", glow:"#c09040", scent:"Cedar & L
 { id:"CLARITY",el:"Air", col:"#5A8A5A", colL:"#2A6A2A", glow:"#80d080", scent:"White Flo
